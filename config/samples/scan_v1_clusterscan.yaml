@@ -1,0 +1,9 @@
+apiVersion: scan.my.domain/v1
+kind: ClusterScan
+metadata:
+  labels:
+    app.kubernetes.io/name: clusterscan
+    app.kubernetes.io/managed-by: kustomize
+  name: clusterscan-sample
+spec:
+  # Add fields here
